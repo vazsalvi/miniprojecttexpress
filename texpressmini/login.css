@@ -1,0 +1,231 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.vector-icon6 {
+  position: absolute;
+  top: 4.99px;
+  left: 1759px;
+  width: 35px;
+  height: 37.89px;
+  cursor: pointer;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 0;
+  left: 565.96px;
+  border-radius: var(--br-12xl-5);
+  width: 1426.17px;
+  height: 45.82px;
+}
+.dbit-logo-11 {
+  position: absolute;
+  top: 0;
+  left: 58px;
+  width: 121.17px;
+  height: 125.24px;
+  object-fit: cover;
+}
+.vector-icon7 {
+  top: 4.99px;
+  left: 1658px;
+  width: 34px;
+  height: 37.89px;
+}
+.texpress1,
+.vector-icon7,
+.vector-icon8 {
+  position: absolute;
+  cursor: pointer;
+}
+.vector-icon8 {
+  top: 4.99px;
+  left: 1863px;
+  width: 34px;
+  height: 37.89px;
+}
+.texpress1 {
+  top: 46px;
+  left: 179px;
+  font-size: 40.73px;
+  background: linear-gradient(90deg, #76ba1b 38.24%, #00a3c7 62.72%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: flex-end;
+  width: 216.88px;
+}
+.div1,
+.vazsalvi1gmailcom {
+  position: absolute;
+  color: var(--color-white);
+}
+.div1 {
+  top: 7px;
+  left: 1430px;
+  font-size: 25.32px;
+}
+.vazsalvi1gmailcom {
+  top: 5px;
+  left: 1052px;
+  font-size: var(--font-size-7xl);
+  cursor: pointer;
+}
+.loginsignup1,
+.pricing1 {
+  position: absolute;
+  top: 135px;
+}
+.pricing1 {
+  left: 1879px;
+  cursor: pointer;
+}
+.loginsignup1 {
+  left: 1709px;
+  color: var(--color-yellowgreen-300);
+}
+.more-tools1 {
+  left: 1553.78px;
+  display: flex;
+  align-items: flex-end;
+  width: 114.33px;
+}
+.compress1,
+.de-compress1,
+.home2,
+.more-tools1 {
+  position: absolute;
+  top: 135px;
+  cursor: pointer;
+}
+.de-compress1 {
+  left: 1373.33px;
+  display: flex;
+  align-items: flex-end;
+  width: 139.12px;
+  height: 28px;
+}
+.compress1,
+.home2 {
+  left: 1230.08px;
+}
+.home2 {
+  left: 1126.77px;
+}
+.frame-child1 {
+  position: absolute;
+  top: 171px;
+  left: 1715px;
+  background-color: var(--color-yellowgreen-300);
+  width: 117px;
+  height: 2px;
+}
+.frame-icon4 {
+  position: absolute;
+  top: 2px;
+  left: 1353px;
+  width: 40px;
+  height: 42.86px;
+  overflow: hidden;
+}
+.vector-icon9 {
+  position: absolute;
+  top: 5px;
+  left: 1760px;
+  width: 35px;
+  height: 37.89px;
+  cursor: pointer;
+}
+.vector-parent {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 1983px;
+  height: 189px;
+  overflow: hidden;
+  opacity: 0;
+}
+.vector-parent.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-top;
+}
+.look {
+  position: absolute;
+  top: 408px;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 1984px;
+  height: 728px;
+}
+.log-in-to {
+  margin: 0;
+  position: absolute;
+  top: 347px;
+  left: 729px;
+  font-size: 40.73px;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(90deg, #76ba1b 38.24%, #00a3c7 62.72%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.enter-your-email {
+  display: block;
+}
+.enter-your-email-container1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.enter-your-email-container {
+  margin: 0;
+  position: absolute;
+  top: 510px;
+  left: 600px;
+  font-size: 30.05px;
+  display: flex;
+  align-items: flex-end;
+  width: 664px;
+}
+.frame-child2 {
+  position: absolute;
+  top: 0;
+  left: -324px;
+  background: linear-gradient(
+    -61.1deg,
+    #c9e56c 41%,
+    rgba(118, 186, 27, 0) 62.48%
+  );
+  width: 1659px;
+  height: 941px;
+}
+.screenshot-133-1 {
+  position: absolute;
+  top: 206px;
+  left: calc(50% - 20px);
+  width: 635px;
+  height: 438px;
+  object-fit: cover;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 192px;
+  left: 652px;
+  width: 1332px;
+  height: 941px;
+}
+.login {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1133px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: 22.45px;
+  color: var(--color-black);
+  font-family: var(--font-oxygen);
+}

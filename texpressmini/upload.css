@@ -1,0 +1,383 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.supported-formats-pdf {
+  position: absolute;
+  top: 145px;
+  left: calc(50% - 526px);
+  font-size: var(--font-size-13xl);
+  font-weight: 300;
+}
+.frame-child,
+.frame-item {
+  position: absolute;
+  top: 247px;
+  left: 399px;
+  background-color: var(--color-white);
+  width: 1188px;
+  height: 550px;
+}
+.frame-item {
+  top: 97px;
+  left: 397px;
+  background-color: var(--color-powderblue-100);
+  height: 125px;
+  opacity: 0.4;
+}
+.dropbox-icon {
+  top: 185px;
+  left: 834px;
+  width: 123px;
+  height: 109px;
+  cursor: pointer;
+}
+.drive-icon,
+.dropbox-icon,
+.url-icon {
+  position: absolute;
+  object-fit: cover;
+}
+.drive-icon {
+  top: 196px;
+  left: 930px;
+  width: 123px;
+  height: 98px;
+  cursor: pointer;
+}
+.url-icon {
+  top: 190px;
+  left: 1038px;
+  width: 122px;
+  height: 110.81px;
+}
+.frame-inner {
+  position: absolute;
+  top: 214px;
+  left: 761px;
+  border-radius: 50%;
+  background-color: var(--color-yellowgreen-100);
+  width: 68px;
+  height: 68px;
+}
+.ellipse-div,
+.rectangle-div {
+  position: absolute;
+  top: 231px;
+  left: 777px;
+  background-color: var(--color-gray-100);
+  width: 35px;
+  height: 38px;
+}
+.ellipse-div {
+  top: 213px;
+  left: 1165px;
+  border-radius: 50%;
+  background-color: var(--color-yellowgreen-100);
+  width: 68px;
+  height: 68px;
+}
+.frame-child1 {
+  position: absolute;
+  top: 230px;
+  left: 1181px;
+  background-color: var(--color-gray-100);
+  width: 35px;
+  height: 38px;
+}
+.atoz-1-icon,
+.untitled-1-icon {
+  position: absolute;
+  top: 191px;
+  left: 739px;
+  width: 111px;
+  height: 111px;
+  object-fit: cover;
+}
+.atoz-1-icon {
+  top: 202px;
+  left: 1167px;
+  width: 75.94px;
+  height: 85px;
+}
+.clear-list {
+  position: absolute;
+  top: 311px;
+  left: 947px;
+  font-size: 21.81px;
+  font-weight: 300;
+  color: #0097cd;
+  cursor: pointer;
+}
+.frame-child2,
+.frame-child3,
+.frame-input {
+  position: absolute;
+  top: 391px;
+  left: 765px;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-child2,
+.frame-child3 {
+  left: 930px;
+}
+.frame-child3 {
+  left: 1121px;
+}
+.high,
+.low,
+.medium {
+  position: absolute;
+  top: 390.5px;
+  left: 807px;
+  font-weight: 300;
+}
+.high,
+.medium {
+  top: 389px;
+  left: 975px;
+  display: inline-block;
+  width: 90px;
+}
+.high {
+  left: 1165px;
+  width: 51px;
+}
+.frame-child4
+{
+  border: 0;
+  background-color: var(--color-greenyellow);
+  position: absolute;
+  top: 450px;
+  left: calc(50% - 331px);
+  border-radius: var(--br-75xl);
+  width: 662px;
+  height: 128px;
+  cursor: pointer;
+}
+.rectangle-input {
+  display: none;
+  visibility: hidden;
+}
+label
+{
+  border: 0;
+  background-color: var(--color-greenyellow);
+  position: absolute;
+  top: 450px;
+  left: calc(50% - 331px);
+  border-radius: var(--br-75xl);
+  width: 662px;
+  height: 128px;
+  cursor: pointer;
+  
+}
+.frame-child4 {
+  top: 620px;
+  left: calc(50% - 330px);
+}
+.submit-your-file,
+.upload-your-file {
+  position: absolute;
+  top: calc(50% + 32px);
+  left: calc(50% - 102px);
+  font-family: var(--font-oxygen);
+  color: var(--color-gray-200);
+}
+.submit-your-file {
+  top: calc(50% + 201px);
+  left: calc(50% - 98px);
+}
+.frame-icon {
+  position: absolute;
+  top: 658px;
+  left: 1218px;
+  width: 51px;
+  height: 51px;
+  overflow: hidden;
+}
+.frame1 {
+  align-self: stretch;
+  position: relative;
+  height: 930px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-image: url(./public/frame8@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.frame,
+.frame-wrapper {
+  width: 1984px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame-wrapper {
+  align-items: center;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-oxanium);
+}
+.frame {
+  position: absolute;
+  top: 201px;
+  left: 0;
+  height: 932px;
+  overflow: hidden;
+  align-items: flex-end;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 0;
+  left: 565.96px;
+  border-radius: var(--br-12xl-5);
+  width: 1426.17px;
+  height: 45.82px;
+}
+.dbit-logo-1 {
+  position: absolute;
+  top: 0;
+  left: 58px;
+  width: 121.17px;
+  height: 125.24px;
+  object-fit: cover;
+}
+.vector-icon,
+.vector-icon1,
+.vector-icon2 {
+  position: absolute;
+  top: 4.99px;
+  left: 1759px;
+  width: 35px;
+  height: 37.89px;
+  cursor: pointer;
+}
+.vector-icon1,
+.vector-icon2 {
+  left: 1658px;
+  width: 34px;
+}
+.vector-icon2 {
+  left: 1863px;
+}
+.texpress1 {
+  margin: 0;
+}
+.texpress-txt {
+  line-break: anywhere;
+  width: 100%;
+}
+.div,
+.texpress {
+  position: absolute;
+}
+.texpress {
+  top: 45.82px;
+  left: 179.21px;
+  font-size: 40.73px;
+  background: linear-gradient(90deg, #76ba1b 38.24%, #00a3c7 62.72%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: flex-end;
+  width: 216.88px;
+  cursor: pointer;
+}
+.div {
+  top: 7px;
+  left: 1430px;
+  font-size: 25.32px;
+  color: var(--color-white);
+}
+.pricing,
+.vazsalvi1gmailcom {
+  position: absolute;
+  cursor: pointer;
+}
+.vazsalvi1gmailcom {
+  top: 7px;
+  left: 1045px;
+  font-size: var(--font-size-7xl);
+  color: var(--color-white);
+}
+.pricing {
+  top: 135px;
+  left: 1880.24px;
+}
+.loginsignup {
+  left: 1709.44px;
+  width: 129px;
+  height: 28px;
+  cursor: pointer;
+}
+.de-compress,
+.loginsignup,
+.more-tools {
+  position: absolute;
+  top: 135px;
+  display: flex;
+  align-items: flex-end;
+}
+.more-tools {
+  left: 1553.78px;
+  width: 114px;
+  height: 28px;
+  cursor: pointer;
+}
+.de-compress {
+  left: 1373.33px;
+  width: 139.12px;
+}
+.compress,
+.home {
+  position: absolute;
+  top: 135px;
+  left: 1230.08px;
+}
+.home {
+  left: 1126.77px;
+  cursor: pointer;
+}
+.frame-icon1,
+.vector-parent {
+  position: absolute;
+  top: 2px;
+  left: 1353px;
+  width: 40px;
+  height: 42.86px;
+  overflow: hidden;
+}
+.vector-parent {
+  top: 0;
+  left: 0;
+  width: 1983px;
+  height: 202px;
+  opacity: 0;
+}
+.vector-parent.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-top;
+}
+.upload {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1133px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: 22.45px;
+  color: var(--color-black);
+  font-family: var(--font-oxygen);
+}
